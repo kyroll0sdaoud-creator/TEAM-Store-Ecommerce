@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TEAM Store — Product Details</title>
+  <link rel="stylesheet" href="../bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="icon" type="image/svg+xml" href="../logo.svg" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="../index.html" class="nav-logo">
+      <img src="../logo.svg" alt="TEAM Store Logo" />
+      TEAM Store
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="add-product.html">Add Product</a></li>
+      <li><a href="Cart.html">Cart</a></li>
+      <li><a href="login.html">logout</a></li>
+      
+      <li><button id="outbtn">delete account</button></li>
+
+    </ul>
+  </nav>
+
+  <section class="breadcrumb-section">
+    <div class="breadcrumb-container">
+      <a href="../index.html">Home</a>
+      <span>/</span>
+      <a href="products.html">Products</a>
+      <span>/</span>
+      <span class="current" id="breadcrumb-name">Product Name</span>
+    </div>
+  </section>
+
+  <section class="product-detail-section">
+    <div class="product-detail-container">
+      
+      <div class="product-image-wrapper">
+        <div class="product-image">
+          <img id="product-image" src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80" alt="Product Image" />
+        </div>
+      </div>
+
+      <div class="product-info">
+        
+        <h1 id="product-title" class="product-title">Premium Minimalist Watch</h1>
+        
+        <div class="product-rating">
+          <div class="stars">
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star half">★</span>
+          </div>
+          <span class="rating-text">(124 reviews)</span>
+        </div>
+
+        <div class="product-price-section">
+          <p class="product-price"><span id="product-price">4,500</span> <span class="currency">EGP</span></p>
+          <p class="product-stock" id="product-stock">In Stock</p>
+        </div>
+
+        <div class="product-divider"></div>
+
+        <div class="product-description">
+          <h3>Description</h3>
+          <p id="product-desc">
+            This premium minimalist watch combines elegant design with precision timekeeping. 
+            Crafted with premium materials and attention to detail, it's the perfect accessory 
+            for those who appreciate understated luxury and functionality.
+          </p>
+        </div>
+
+        <div class="product-features">
+          <h3>Key Features</h3>
+          <ul>
+            <li>Premium stainless steel case</li>
+            <li>Japanese quartz movement</li>
+            <li>Water-resistant up to 50m</li>
+            <li>Minimalist design aesthetic</li>
+            <li>Premium leather strap</li>
+          </ul>
+        </div>
+
+        <div class="product-divider"></div>
+        <div class="product-actions">
+          <div class="quantity-selector">
+            <label for="quantity">Quantity:</label>
+            <div class="quantity-control">
+              <button id="qty-minus" class="qty-btn">−</button>
+              <input type="number" id="quantity" min="1" value="1" />
+              <button id="qty-plus" class="qty-btn">+</button>
+            </div>
+          </div>
+          <button id="brn-add-to-cart" class="btn btn-primary add-to-cart">Add to Cart</button>
+        </div>
+          <div id="alert" class="alert alert-success">Added to cart successfully!</div>
+        <div class="product-meta">
+          <div class="meta-item">
+            <span class="meta-label">Category:</span>
+            <span id="product-category" class="meta-value">Accessories</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Shipping:</span>
+            <span class="meta-value">Free Shipping on Orders Over 2,000 EGP</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="related-products-section">
+    <div class="related-header">
+      <h2>Related <span>Products</span></h2>
+      <p>You might also like</p>
+    </div>
+    
+    <div class="products-grid" id="related-products">
+    </div>
+  </section>
+
+  <footer class="footer">
+    &copy; 2026 <span>TEAM Store</span>. All rights reserved.
+  </footer>
+  <script src="../bootstrap/bootstrap.bundle.js"></script>
+  <script src="../js/details.js"></script>
+</body>
+</html>

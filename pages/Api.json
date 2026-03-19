@@ -1,0 +1,173 @@
+[
+  {
+    "price": "4500",
+    "description": "ساعة يد فاخرة تتميز بتصميم عصري بسيط يجمع بين الأناقة والعملية، مثالية للإطلالات الرسمية واليومية بلمسة من الرقي.",
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&q=80",
+    "key_features": ["تصميم نحيف وخفيف الوزن", "سوار من الجلد الطبيعي أو المعدن المقاوم للصدأ", "مقاومة لرذاذ الماء", "حركة كوارتز دقيقة"],
+    "title": "Premium Minimalist Watch",
+    "id": "1"
+  },
+  {
+    "price": "1200",
+    "description": "عطر العود الفاخر الذي يجسد التراث والغموض، مزيج ساحر من الروائح الشرقية التي تدوم طويلاً لتعطيك حضوراً لا يُنسى.",
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=400&q=80",
+    "key_features": ["ثبات عالي يدوم لأكثر من 12 ساعة", "تركيبة غنية بخشب العود الصافي", "زجاجة أنيقة بتصميم ملكي", "مناسب للجنسين"],
+    "title": "Luxury Oud Perfume",
+    "id": "2"
+  },
+  {
+    "price": "2200",
+    "description": "حذاء رياضي مخصص للجري، مصمم ليوفر أقصى درجات الراحة والدعم لقدميك أثناء التمارين الشاقة بفضل تقنيات التبطين المتقدمة.",
+    "category": "Sport",
+    "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=400&q=80",
+    "key_features": ["نعل مرن لامتصاص الصدمات", "نسيج علوي مسامي للتهوية", "وزن خفيف جداً لتسهيل الحركة", "ثبات عالي على الأسطح المختلفة"],
+    "title": "Sport Runner Sneakers",
+    "id": "3"
+  },
+  {
+    "price": "3000",
+    "description": "سماعات الرأس اللاسلكية الاحترافية التي تنقلك إلى عالم آخر من الصوت النقي والعميق مع تقنية إلغاء الضجيج المتطورة.",
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&q=80",
+    "key_features": ["عزل ضوضاء نشط (ANC)", "بطارية تدوم حتى 30 ساعة", "وسادات أذن مريحة للاستخدام الطويل", "ميكروفون عالي الدقة للمكالمات"],
+    "title": "Wireless Headphones Pro",
+    "id": "4"
+  },
+  {
+    "price": "999",
+    "description": "حقيبة ساعي البريد المصنوعة من الجلد الطبيعي عالي الجودة، تجمع بين التصميم الكلاسيكي والوظائف الحديثة لتناسب اللابتوب والأوراق المهمة.",
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&q=80",
+    "key_features": ["جلد طبيعي متين", "أقسام داخلية متعددة للتنظيم", "حزام كتف قابل للتعديل", "بطانة داخلية ناعمة لحماية الأجهزة"],
+    "title": "Leather Messenger Bag",
+    "id": "5"
+  },
+  {
+    "price": "600",
+    "description": "نظارات الطيارين الكلاسيكية التي لا تنتهي موضتها، توفر حماية كاملة لعينيك من أشعة الشمس مع إطار معدني خفيف وأنيق.",
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&q=80",
+    "key_features": ["عدسات مستقطبة (Polarized) لتقليل الوهج", "حماية 100% من الأشعة فوق البنفسجية UV400", "إطار معدني مقاوم للصدأ", "تصميم يناسب جميع أشكال الوجوه"],
+    "title": "Classic Aviator Sunglasses",
+    "id": "6"
+  },
+  {
+    "price": "1099",
+    "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=400&q=80",
+    "key_features": ["مصنوع من ستانلس ستيل 316L الطبي", "طلاء ذهب وردي أنيق", "تصميم Double Flared لثبات أفضل", "سطح أملس مريح للأذن"],
+    "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+    "id": "8"
+  },
+  {
+    "price": "64",
+    "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_t.png",
+    "key_features": ["سعة تخزين ضخمة 2 تيرابايت", "نقل بيانات فائق السرعة USB 3.0", "تصميم صغير محمول", "توافق تام مع الويندوز والماك"],
+    "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0",
+    "id": "9"
+  },
+  {
+    "price": "109",
+    "description": "Easy upgrade for faster boot up, shutdown, application load and response. Boosts burst write performance.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_t.png",
+    "key_features": ["سرعة قراءة تصل إلى 535MB/s", "مقاوم للصدمات والاهتزازات", "مثالي لتحسين سرعة تشغيل الويندوز", "استهلاك منخفض للطاقة"],
+    "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+    "id": "10"
+  },
+  {
+    "price": "109",
+    "description": "3D NAND flash are applied to deliver high transfer speeds. Advanced SLC Cache Technology allows performance boost.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_t.png",
+    "key_features": ["تقنية 3D NAND المتطورة", "تصميم نحيف 7 مم للأجهزة الرفيعة", "تقنية SLC Cache لتعزيز الأداء", "دعم تقنيات تصحيح الأخطاء ECC"],
+    "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+    "id": "11"
+  },
+  {
+    "price": "114",
+    "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_t.png",
+    "key_features": ["مخصص لمنصة PlayStation 4", "سعة تخزين عملاقة 4 تيرابايت", "سهولة الإعداد Plug-and-Play", "هيكل متين وخفيف"],
+    "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+    "id": "12"
+  },
+  {
+    "price": "599",
+    "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display. Refresh Rate: 75Hz. Zero-frame design.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_t.png",
+    "key_features": ["شاشة IPS لألوان واقعية", "تصميم بدون حواف (Zero-Frame)", "زاوية رؤية واسعة 178 درجة", "سماكة فائقة النحافة"],
+    "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+    "id": "13"
+  },
+  {
+    "price": "999.99",
+    "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR. 144HZ HIGH REFRESH RATE and 1ms ultra fast response time.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_t.png",
+    "key_features": ["شاشة منحنية فائقة الاتساع 32:9", "معدل تحديث 144 هرتز للألعاب", "تقنية QLED لألوان مذهلة", "زمن استجابة 1 مللي ثانية"],
+    "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor",
+    "id": "14"
+  },
+  {
+    "price": "56.99",
+    "description": "3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed.",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_t.png",
+    "key_features": ["تصميم 3 في 1 لجميع الفصول", "طبقة داخلية من الصوف الدافئ", "مقاوم للرياح والماء", "جيوب متعددة بسحاب"],
+    "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+    "id": "15"
+  },
+  {
+    "price": "29.95",
+    "description": "Faux leather material for style and comfort. 2-For-One Hooded denim style faux leather jacket.",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_t.png",
+    "key_features": ["جلد صناعي عالي الجودة", "غطاء رأس قابل للإزالة", "تصميم عصري ضيق (Slim Fit)", "تفاصيل خياطة يدوية أنيقة"],
+    "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+    "id": "16"
+  },
+  {
+    "price": "39.99",
+    "description": "Lightweight perfect for trip or casual wear. Long sleeve with hooded, adjustable drawstring waist design.",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2t.png",
+    "key_features": ["مقاوم تماماً للماء", "بطانة مخططة عصرية", "خصر قابل للتعديل برباط", "خفيف الوزن وسهل التوضيب"],
+    "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+    "id": "17"
+  },
+  {
+    "price": "9.85",
+    "description": "Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline.",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_t.png",
+    "key_features": ["نسيج ناعم ومطاطي", "تصميم ياقة مركب (Boat Neck)", "أكمام قصيرة مريحة", "متوفر بألوان متعددة"],
+    "title": "MBJ Women's Solid Short Sleeve Boat Neck V",
+    "id": "18"
+  },
+  {
+    "price": "7.95",
+    "description": "Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away.",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_t.png",
+    "key_features": ["تقنية طرد الرطوبة والعرق", "قماش خفيف وسريع الجفاف", "مثالية للتمارين الرياضية", "قصة أنثوية مريحة"],
+    "title": "Opna Women's Short Sleeve Moisture",
+    "id": "19"
+  },
+  {
+    "price": "12.99",
+    "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees.",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_t.png",
+    "key_features": ["قطن طبيعي 95%", "ياقة V-Neck عصرية", "طباعة حروف أنيقة", "مناسب لجميع المواسم"],
+    "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+    "id": "20"
+  }
+]

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TEAM Store — Add Product</title>
+  <link rel="stylesheet" href="../bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="icon" href="../logo.svg" />
+</head>
+
+<body>
+<!-- <button type="button" class="btn btn-outline-danger">Danger</button> -->
+
+  <nav class="navbar">
+    <a href="../../index.html" class="nav-logo">
+      <img src="../logo.svg" alt="TEAM Store Logo" />
+      TEAM Store
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="add-product.html" class="active">Add Product</a></li>
+      <li><a href="Cart.html">Cart</a></li>
+     <li><a href="login.html">logout</a></li>
+      <li><button id="outbtn">delete account</button></li>
+
+    </ul>
+  </nav>
+
+
+  <header class="page-header">
+    <h1>Add a <span>Product</span></h1>
+    <p>Fill in the details below to list a new item</p>
+    <div class="divider2"></div>
+  </header>
+
+  <!--Form  -->
+  <section class="form-section">
+    <form class="form-card" action="" method="" autocomplete="off">
+
+      <h2>New Product</h2>
+      <p class="form-sub">All fields are required</p>
+
+      <div class="form-group">
+        <label for="product-name">Product Name</label>
+        <input type="text" id="product-name" name="productName" placeholder="e.g. Leather Wallet" required />
+      </div>
+
+      <div class="form-group">
+        <label for="price">Price (EGP)</label>
+        <input type="number" id="price" name="price" placeholder="e.g. 1500" min="0" required />
+      </div>
+
+
+      <div class="form-group">
+        <label for="image-url">Image URL</label>
+        <input type="url" id="image-url" name="imageUrl" placeholder="https://example.com/image.jpg" required />
+      </div>
+      <button type="submit" class="btn btn-primary form-submit">
+        Add Product
+      </button>
+
+    </form>
+  </section>
+
+
+  <footer class="footer">
+    &copy; 2026 <span>TEAM Store</span>. All rights reserved.
+  </footer>
+  <script src="../bootstrap/bootstrap.bundle.js"></script>
+  <script src="../js/add_prod.js"></script>
+
+</body>
+
+</html>

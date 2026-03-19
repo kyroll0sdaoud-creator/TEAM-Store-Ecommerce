@@ -1,0 +1,36 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#c9933a" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Geometric Base - Premium feel -->
+  <g id="logo-mark">
+    <!-- Top accent line -->
+    <line x1="50" y1="60" x2="150" y2="60" stroke="#c9933a" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Left vertical bar -->
+    <rect x="55" y="75" width="8" height="55" fill="#c9933a" rx="4"/>
+    
+    <!-- Center diamond shape -->
+    <polygon points="100,75 115,100 100,125 85,100" fill="none" stroke="#c9933a" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="100" cy="100" r="6" fill="#c9933a"/>
+    
+    <!-- Right vertical bar -->
+    <rect x="137" y="75" width="8" height="55" fill="#c9933a" rx="4"/>
+    
+    <!-- Bottom accent line -->
+    <line x1="50" y1="140" x2="150" y2="140" stroke="#c9933a" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Text wrapper for future use -->
+  <defs>
+    <style>
+      .logo-text {
+        font-family: 'Playfair Display', serif;
+        font-size: 32px;
+        font-weight: 700;
+        fill: #c9933a;
+        letter-spacing: 2px;
+      }
+    </style>
+  </defs>
+</svg>
