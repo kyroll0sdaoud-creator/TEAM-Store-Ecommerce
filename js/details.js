@@ -25,7 +25,7 @@ xhr.onreadystatechange = function () {
         let data = JSON.parse(xhr.responseText);
         console.log(data);
 
-        
+
         for (let i = 0; i < data.length; i++) {
             if (data[i].id == productId) {
                 myProduct = data[i];
@@ -84,25 +84,9 @@ xhr.send();
 const counter = document.getElementById("quantity");
 const btn_plus = document.getElementById("qty-plus");
 const btn_minus = document.getElementById("qty-minus");
-const btn_add_to_cart = document.getElementById("brn-add-to-cart");
-const alert=document.getElementById("alert");
+const alert = document.getElementById("alert");
 
 
-btn_add_to_cart.onclick=()=>{
-    let product ={
-        img:`${myProduct.image}`,
-        name:`${myProduct.title}`
-    };
-    let cart=JSON.parse(localStorage.getItem("cart"))||[];
-    cart.push(product);
-    localStorage.setItem("cart",JSON.stringify(cart));
-   
-    //localStorage.clear()
-    alert.style.display='block';
-    
-
-
-}
 
 btn_plus.addEventListener("click", () => {
     counter.value = parseInt(counter.value) + 1;
@@ -118,10 +102,24 @@ btn_minus.addEventListener("click", () => {
 let user = localStorage.getItem("User_Email");
 let pass = localStorage.getItem("passwored");
 // add to cart
-const add_to_cart = document.getElementById("brn-add-to-cart")
-add_to_cart.addEventListener('click', () => {
+const add_to_cart = document.getElementById("brn-add-to-cart");
+add_to_cart.addEventListener('click', (e) => {
+    e.preventDefault();
     if (!user) {
         window.location.href = "../pages/login.html";
+    }
+
+    else {
+        let product = {
+            img: `${myProduct.image}`,
+            name: `${myProduct.title}`
+        };
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
+        cart.push(product);
+        localStorage.setItem("cart", JSON.stringify(cart));
+
+        //localStorage.clear()
+        alert.style.display = 'block';
     }
 
 })
