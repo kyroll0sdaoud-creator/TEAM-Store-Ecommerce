@@ -53,20 +53,26 @@ document.getElementById('loginForm').addEventListener('submit', (e) => {
     const registeredEmail = localStorage.getItem("User_Email");
     const registeredPass = localStorage.getItem("passwored");
 
+  if (email.value===""){
+    showError(email,"Email is required");
+  }
+  if (password.value===""){
+    showError(password,"Password is requred");
+  }
+  
+  if(email.value===""|| password.value===""){
+    return;
+  }
 
     if (!registeredEmail || !registeredPass) {
-        window.location.href = "register.html";
+      showError(email,'This email is not registered. Please register first');
+        return;
     }
 
-    const isEmailValid = emailregex.test(email.value);
-    const isPassValid = passregex.test(password.value);
-
-    if (email.value !== "" && isEmailValid && password.value !== "" && isPassValid) {
-
-        if (email.value === registeredEmail && password.value === registeredPass) {
-            window.location.href = "../index.html";
-        } else {
-            window.location.href = "register.html"
-        }
-    }
+ if(email.value === registeredEmail && password.value === registeredPass){
+    window.location.href="../index.html";
+ }
+ else{
+    showError(password,'Email or password is incorrect');
+ }
 });
