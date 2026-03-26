@@ -1,3 +1,17 @@
+//----------------- login جزء خاص بتخزين بيانات -------------------//
+let outbtn = document.getElementById("outbtn");
+
+if (outbtn) {
+    outbtn.addEventListener("click", () => {
+        // localStorage.removeItem("User_Email");
+        // localStorage.removeItem("passwored");
+        // localStorage.removeItem("User_Name");
+        localStorage.clear();
+
+        window.location.href = "../pages/login.html";
+    });
+}
+//-----------------------------------------------------------------------//
 let cart = JSON.parse(localStorage.getItem("cart")) || [];  // this form json to array 
 let parent_div = document.querySelector(".cart_div");
 
